@@ -9,7 +9,7 @@ Defined file structure of this kit, following MVC Architecture
   * **system.php**   : to be included in every page where you need controller interaction in any page
 * **controller/**
   * **DBClass.php**  : database connection model
-  * **__NAME__Controller.php** : here __NAME__ can be anything for controller, default comes with DemoController with constructor and function. every controller with database actions should include the constructor
+  * **__NAME__Controller.php** : here \_\_NAME\_\_ can be anything for controller, default comes with DemoController with constructor and function. every controller with database actions should include the constructor
 * **migrations/**
   * **create_table_name_table.sql** : sql schema to be imported into database
 * **view/**
