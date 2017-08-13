@@ -18,14 +18,14 @@ class DemoController {
 	* @return boolean or any value
 	* @throws exception of any kind
 	*/
-	public function login(array $data) 
+	public function hello($name) 
 	{
-		$variable = "this nigga";
+		$variable = "this nigga is ".$name;
 		// To access database connection variables we use this keyword
 		// mysqli_connect($this->connection, "<QUERY>");
-		throw new Exception(EXCEPTION_NAME); // here exception can be from config/messages directory
+		//throw new Exception(EXCEPTION_NAME); // here exception can be from config/messages directory
 		// OR
-		return $variable
+		return $variable;
 	}
 }
 
